@@ -136,7 +136,8 @@ body{
     align-items: center;
     width: 100%;
     padding-top: 10px;
-    min-height: 70vh;  
+    min-height: 70vh;
+    height: auto;
 }
 
 .section2__left{
@@ -468,13 +469,12 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        overflow: hidden;
     }
 
     .section2__left{
         flex-direction: column;
         align-items: center;
-        margin: 0px;
-        padding: 0px;
     }
 
     .section2 h1{
